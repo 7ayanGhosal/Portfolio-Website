@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
-import './IntroTextBox.css'
+import classes from './IntroTextBox.css'
 
 
 class IntroTextBox extends Component {
-    
     render() {
         return (
-            <div><p class="word">{this.props.children}</p></div>
+            <div className={classes.outerBox}>
+                <div className={classes.box}>
+                    <p className={classes.word}>{this.props.children}</p></div>
+            </div>
         )
     }
 }

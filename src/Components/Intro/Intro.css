@@ -1,2 +1,7 @@
-
-  
+.Intro{
+    width: 100%;
+    padding: 1.5em 2em;
+    color: lightgray;
+    /* margin-top: 10%; */
+    box-sizing: border-box;
+}

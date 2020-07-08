@@ -1,7 +1,19 @@
 .Intro{
+    height: 100%;
     width: 100%;
-    padding: 1.5em 2em;
+    margin: 0;
+    padding: 0;
+    padding: 1.5em 0;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     color: lightgray;
-    /* margin-top: 10%; */
     box-sizing: border-box;
+}
+
+.Intro h1{
+    margin: 0;
+    padding: 0;
 }

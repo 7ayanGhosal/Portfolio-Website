@@ -1,0 +1,23 @@
+.CodingProfile{
+    background-color: lightslategray;
+    width: 100%;
+    /* align-items: center;
+    justify-content: space-between; */
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.CodingProfile > div{
+    display: table;
+    width: 100%;
+}
+/* 
+.CodingProfile img{
+    display: inline;
+    width: 30vw;
+    min-width: 400px;
+    
+    margin: 0 20px;
+    border-radius: 5px;
+} */

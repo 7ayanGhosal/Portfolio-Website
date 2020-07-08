@@ -9,11 +9,16 @@
 .outerBox{
     overflow: hidden;
     width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.box p{
+  margin: 0;
+  padding: 0;
 }
 
 .box{
-    
-    margin-bottom: 0.8em;
     overflow: hidden;
     height: auto;
     position: relative;

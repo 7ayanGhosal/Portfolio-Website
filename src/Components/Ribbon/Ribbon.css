@@ -1,0 +1,24 @@
+.Ribbon div{
+    position: fixed;
+    right: -90px;
+    top: 170px;
+    z-index: 90;
+    width: 400px;
+    background-color: gold;
+    transform: rotate3d(0, 0, 1, 45deg);
+    box-shadow: 0px 5px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.Ribbon div{
+    text-align: center;
+}
+
+.Ribbon div h3{
+    margin: 0;
+    padding: 0;
+}
+
+.Ribbon :hover{
+    background-color: goldenrod;
+}

@@ -1,0 +1,33 @@
+.ProfilePic{
+    min-width: 150px;
+    max-width: 300px;
+    width: 35vw;
+    /* height: 300px; */
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.ProfilePic div{
+    border: 6px solid tomato;
+    border-radius: 50%;
+    min-width: 150px;
+    max-width: 300px;
+    width: 35vw;
+    /* height: 300px; */
+    overflow: hidden;
+    animation: anim1 0.5s linear infinite alternate;
+    box-sizing: border-box;
+}
+
+.ProfilePic img{
+    min-width: 150px;
+    max-width: 300px;
+    width: 35vw;
+    /* height: 300px; */
+    object-fit: contain;
+}
+
+@keyframes anim1 {
+    from { border-color: red;}
+    to { border-color: tomato;}
+}

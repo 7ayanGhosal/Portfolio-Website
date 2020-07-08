@@ -1,0 +1,14 @@
+.Navbar{
+    z-index: 500;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    color: lightgrey;
+}
+
+.Navbar ul{
+    padding: 0;
+}

@@ -1,0 +1,12 @@
+.NavItem{
+    font-size: 1.5em;
+}
+.NavItem a{
+    padding: 0;
+    text-decoration: none;
+    color: red;
+}
+
+.NavItem a:hover{
+    color: rgb(236, 176, 152);
+}

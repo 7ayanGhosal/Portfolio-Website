@@ -7,6 +7,7 @@ import Hamburger from './Components/Hamburger/Hamburger';
 import ProfilePic from './Components/ProfilePic/ProfilePic';
 import Navbar from './Components/Navigation/Navbar/Navbar';
 import CodingProfiles from './Components/CodingProfiles/CodingProfiles';
+import Section from './Components/Section/Section';
 
 class App extends Component {
   render() {
@@ -21,8 +22,7 @@ class App extends Component {
         <CodingProfiles/>
         {/* <CodingProfiles/>
         <CodingProfiles/> */}
-
-
+        <Section id="Coding_Profiles" count={4}/>
 
         {/* <div id="About" className={classes.section}><div>About</div></div>
         <div id="Education" className={classes.section}><div>Education</div></div>

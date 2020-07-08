@@ -1,0 +1,48 @@
+.Section{
+    width: 100vw; 
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    background-color: darkblue;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
+
+
+
+.arrow_left a{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 2em;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-shadow: black 0px 0px 6px;
+    z-index: 50;
+}
+
+.arrow_right a{
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 2em;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-shadow: black 1px 1px 4px;
+    z-index: 100;
+}
+
+.arrow_left :hover , .arrow_right :hover{
+    color: lightgray;
+}
+
+.Fade a{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.Fade :hover{
+    color: rgba(0, 0, 0, 0.3);
+}

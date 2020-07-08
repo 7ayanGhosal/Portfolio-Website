@@ -1,0 +1,36 @@
+.Image{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    min-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+@media(min-width: 680px){
+    .Image{
+        float: left;
+    }
+}
+
+.Image > img{
+    border-radius: 10px;
+    width: 25vw;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 0;
+    box-shadow: 4px 3px rgba(0,0,0,0.4);
+}
+
+.Image > p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    color: lightgrey;
+    text-shadow: black 0px 0px 6px;
+}

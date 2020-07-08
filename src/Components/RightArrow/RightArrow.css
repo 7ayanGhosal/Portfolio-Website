@@ -1,0 +1,23 @@
+.arrow_right a{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 2em;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-shadow: black 0px 0px 6px;
+    z-index: 50;
+}
+.arrow_right :hover {
+    color: lightgray;
+}
+
+.Fade a{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.Fade :hover{
+    color: rgba(0, 0, 0, 0.3);
+}

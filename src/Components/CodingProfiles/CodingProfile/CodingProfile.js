@@ -7,15 +7,19 @@ import Details from './Details/Details';
 class CodingProfile extends Component{
     render(){
         return(
-            <Aux>
-                <div className={classes.CodingProfile}>
+                <div className={classes.CodingProfile} id={this.props.id}>
+                    <div className={classes.arrow_left}>
+                        <a href={'#'+ (this.props.id+1)%2  } ><i class="fas fa-chevron-left"></i></a>
+                    </div>
+                    <div className={classes.arrow_right}>
+                        <a href={'#'+ (this.props.id+1)%2  } ><i class="fas fa-chevron-right"></i></a>
+                    </div>
                     <div>
                         <Details platform={this.props.platform}
                                 handel={this.props.handel}
                                 rank={this.props.rank}
                                 max_rating={this.props.max_rating}
                                 link={this.props.link}/>
-
                     </div>
                     <div className={classes.Images}>
                         <Image path={this.props.profile_path}>
@@ -26,7 +30,6 @@ class CodingProfile extends Component{
                         </Image>
                     </div>
                 </div>
-            </Aux>
         )
     }
 }

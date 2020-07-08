@@ -19,6 +19,8 @@ class App extends Component {
         {/* <Ribbon/> */}
         {/* <Hamburger/> */}
         <CodingProfiles/>
+        {/* <CodingProfiles/>
+        <CodingProfiles/> */}
 
 
 

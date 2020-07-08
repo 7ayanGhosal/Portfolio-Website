@@ -11,19 +11,23 @@ import CF_P from '../../Assets/Codeforces/Codeforces_Profile.PNG';
 class CodingProfiles extends Component{
     render(){
         return(
-            <div id="CodingProfiles" className={classes.CodingProfiles}>
-                <CodingProfile graph_path={CF_G} profile_path={CF_P}
-                    platform={"CODEFORCES"}
-                    handel={"Bigg_O"}
-                    rank={"Expert"}
-                    max_rating={"1646"}
-                    link={'http://codeforces.com/profile/Bigg_O'}/>
-                <CodingProfile graph_path={CC_G} profile_path={CC_P}
-                    platform={"CODECHEF"}
-                    handel={"mastermindayan"}
-                    rank={"4*"}
-                    max_rating={"1839"}
-                    link={'https://www.codechef.com/users/mastermindayan'}/>
+            <div style={{'width': '100vw', 'overflow': 'hidden'}}>
+                <div id="CodingProfiles" className={classes.CodingProfiles}>
+                    <CodingProfile graph_path={CF_G} profile_path={CF_P}
+                        id={0}
+                        platform={"CODEFORCES"}
+                        handel={"Bigg_O"}
+                        rank={"Expert"}
+                        max_rating={"1646"}
+                        link={'http://codeforces.com/profile/Bigg_O'}/>
+                    <CodingProfile graph_path={CC_G} profile_path={CC_P}
+                        id={1}
+                        platform={"CODECHEF"}
+                        handel={"mastermindayan"}
+                        rank={"4*"}
+                        max_rating={"1839"}
+                        link={'https://www.codechef.com/users/mastermindayan'}/>
+                </div>
             </div>
         )
     }

@@ -1,5 +1,11 @@
 .CodingProfiles{
     /* display: none; */
-    /* width: 200vw;
-    display: flex; */
+    width: 200vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    background-color: darkblue;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    
 }

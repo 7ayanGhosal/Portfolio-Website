@@ -12,19 +12,21 @@ class App extends Component {
   render() {
     return (
       <div className={classes.App}>
-        <Navbar/>
-        <ProfilePic/>
-        <Intro />
-        <Mail/>
-        <Ribbon/>
-        <Hamburger/>
+        {/* <Navbar/> */}
+        {/* <ProfilePic/> */}
+        {/* <Intro /> */}
+        {/* <Mail/> */}
+        {/* <Ribbon/> */}
+        {/* <Hamburger/> */}
+        <CodingProfiles/>
+
+
 
         {/* <div id="About" className={classes.section}><div>About</div></div>
         <div id="Education" className={classes.section}><div>Education</div></div>
         <div id="Certifications" className={classes.section}><div>Certifications</div></div>
         <div id="Projects" className={classes.section}><div>Projetcs</div></div> */}
         {/* <div id="Coding-Profiles" className={classes.section}><div>Coding-profiles</div></div> */}
-        <CodingProfiles/>
       </div>
     );
   }

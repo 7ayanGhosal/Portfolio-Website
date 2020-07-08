@@ -9,12 +9,15 @@ class CodingProfile extends Component{
         return(
             <Aux>
                 <div className={classes.CodingProfile}>
-                    <Details platform={this.props.platform}
-                            handel={this.props.handel}
-                            rank={this.props.rank}
-                            max_rating={this.props.max_rating}
-                            link={this.props.link}/>
                     <div>
+                        <Details platform={this.props.platform}
+                                handel={this.props.handel}
+                                rank={this.props.rank}
+                                max_rating={this.props.max_rating}
+                                link={this.props.link}/>
+
+                    </div>
+                    <div className={classes.Images}>
                         <Image path={this.props.profile_path}>
                             Profile Details
                         </Image>
@@ -22,9 +25,6 @@ class CodingProfile extends Component{
                             Contest Graph
                         </Image>
                     </div>
-                    
-                    {/* <img src={this.props.profile_path} />
-                    <img src={this.props.graph_path} /> */}
                 </div>
             </Aux>
         )

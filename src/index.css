@@ -6,4 +6,5 @@ body{
 
 html{
     height: 500vh;
+    min-width: 300px;
 }

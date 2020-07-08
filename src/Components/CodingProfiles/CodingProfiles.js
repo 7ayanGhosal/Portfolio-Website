@@ -11,7 +11,7 @@ import CF_P from '../../Assets/Codeforces/Codeforces_Profile.PNG';
 class CodingProfiles extends Component{
     render(){
         return(
-            <div id="CodingProfiles">
+            <div id="CodingProfiles" className={classes.CodingProfiles}>
                 <CodingProfile graph_path={CF_G} profile_path={CF_P}
                     platform={"CODEFORCES"}
                     handel={"Bigg_O"}
@@ -19,7 +19,7 @@ class CodingProfiles extends Component{
                     max_rating={"1646"}
                     link={'http://codeforces.com/profile/Bigg_O'}/>
                 <CodingProfile graph_path={CC_G} profile_path={CC_P}
-                    platform={"CODEFORCES"}
+                    platform={"CODECHEF"}
                     handel={"mastermindayan"}
                     rank={"4*"}
                     max_rating={"1839"}

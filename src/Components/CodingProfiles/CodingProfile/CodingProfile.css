@@ -1,23 +1,30 @@
 .CodingProfile{
-    background-color: lightslategray;
-    width: 100%;
-    /* align-items: center;
-    justify-content: space-between; */
-    margin: 20px 0;
-    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid darkred;
+    margin: 5px 30px;
+    min-width: 360px;
+    box-sizing: border-box;
+    background-color: darkblue;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    /* width: 100vw; */
+}
+
+.Images{
+    text-align: center;
     box-sizing: border-box;
 }
 
-.CodingProfile > div{
-    display: table;
-    width: 100%;
+@media (min-width: 680px){
+    .Images{
+        display: flex;
+        align-items: center;
+    }
 }
-/* 
-.CodingProfile img{
-    display: inline;
-    width: 30vw;
-    min-width: 400px;
-    
-    margin: 0 20px;
-    border-radius: 5px;
-} */
+
+@media(max-width: 450px){
+    .CodingProfile{
+        margin: 10px 0;
+    }
+}

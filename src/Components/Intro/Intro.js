@@ -4,18 +4,18 @@ import IntroTextBox from './IntroTextBox/IntroTextBox';
 
 class Intro extends Component {
     state = {
-        words : ["MERN Stack Web Developer", "Competitive Programmer...."]
+        words : ["MERN Stack Web Developer", "Competitive Programmer"]
     }
-
+    
     render(){
         return (
             <div className={classes.Intro}>
                 <h1 style={{'color': 'tomato'}} >Hi.</h1>
                 <h1 style={{'color': 'tomato'}} >I'm Ayan,</h1>
-                <IntroTextBox >
+                <IntroTextBox width={400}>
                     {this.state.words[0]}
                 </IntroTextBox>
-                <IntroTextBox >
+                <IntroTextBox width={370}>
                     {this.state.words[1]}
                 </IntroTextBox>
             </div>

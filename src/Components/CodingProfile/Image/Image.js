@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import classes from './Image.css';
-import Aux from '../../../../hoc/Auxiliary'
+import Aux from '../../../hoc/Auxiliary'
 
 
 class Image extends Component{

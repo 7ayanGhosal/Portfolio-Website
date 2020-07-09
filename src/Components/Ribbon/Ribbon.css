@@ -1,13 +1,13 @@
 .Ribbon div{
     position: fixed;
-    right: -90px;
-    top: 170px;
-    z-index: 90;
+    right: -120px;
+    top: 100px;
+    z-index: 150;
     width: 400px;
     background-color: gold;
     transform: rotate3d(0, 0, 1, 45deg);
     box-shadow: 0px 5px rgba(0,0,0,0.3);
-    padding: 10px;
+    padding: 7px;
 }
 
 .Ribbon div{
@@ -17,8 +17,43 @@
 .Ribbon div h3{
     margin: 0;
     padding: 0;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
 }
 
-.Ribbon :hover{
-    background-color: goldenrod;
+.Ribbon div :hover, .Ribbon :hover{
+    background-color: yellow;
+}
+
+@media(max-width: 900px){
+    .Ribbon div{
+        top:80px;
+        right: -150px;
+    }
+    .Ribbon h3{
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width: 750px){
+    .Ribbon div{
+        top:60px;
+        right: -135px;
+        padding: 5px;
+    }
+    .Ribbon h3{
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width: 450px){
+    .Ribbon div{
+        top:60px;
+        right: -135px;
+        padding: 5px;
+    }
+    .Ribbon h3{
+        font-size: 0.6em;
+        margin: 0;
+        padding: 0;
+    }
 }

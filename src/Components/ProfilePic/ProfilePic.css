@@ -1,19 +1,14 @@
 .ProfilePic{
     min-width: 150px;
-    max-width: 300px;
-    width: 35vw;
-    /* height: 300px; */
-    margin: auto;
-    position: relative;
-    top: 70px;
+    max-width: 400px;
+    width: 45vw;
 }
 .ProfilePic div{
     border: 6px solid tomato;
     border-radius: 50%;
     min-width: 150px;
-    max-width: 300px;
-    width: 35vw;
-    /* height: 300px; */
+    max-width: 400px;
+    width: 45vw;
     overflow: hidden;
     animation: anim1 0.5s linear infinite alternate;
     box-sizing: border-box;
@@ -21,9 +16,8 @@
 
 .ProfilePic img{
     min-width: 150px;
-    max-width: 300px;
-    width: 35vw;
-    /* height: 300px; */
+    max-width: 400px;
+    width: 45vw;
     object-fit: contain;
 }
 

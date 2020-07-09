@@ -6,8 +6,8 @@ import Ribbon from './Components/Ribbon/Ribbon';
 import Hamburger from './Components/Hamburger/Hamburger';
 import ProfilePic from './Components/ProfilePic/ProfilePic';
 import Navbar from './Components/Navigation/Navbar/Navbar';
-import CodingProfiles from './Components/CodingProfiles/CodingProfiles';
-import Section from './Components/Section/Section';
+// import Section from './Components/Section/Section';
+import Layout from './Containers/Layout/Layout'
 
 class App extends Component {
   render() {
@@ -19,10 +19,11 @@ class App extends Component {
         {/* <Mail/> */}
         {/* <Ribbon/> */}
         {/* <Hamburger/> */}
-        <CodingProfiles/>
+        {/* <CodingProfiles/> */}
         {/* <CodingProfiles/>
         <CodingProfiles/> */}
-        <Section id="Coding_Profiles" count={4}/>
+        {/* <Section id="Coding_Profiles" count={4}/> */}
+        <Layout/>
 
         {/* <div id="About" className={classes.section}><div>About</div></div>
         <div id="Education" className={classes.section}><div>Education</div></div>

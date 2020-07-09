@@ -1,0 +1,44 @@
+.Section{
+    width: 100vw; 
+    overflow: hidden;
+    position: relative;
+    /* padding: 15px; */
+    box-sizing: border-box;
+
+    /* 111 */
+    border: 2px solid grey;
+}
+
+
+@media(min-width: 1201px)
+{
+    .Section{
+        height: 70vh;
+        min-height: 400px;
+    }
+}
+
+@media(max-width: 1200px)
+{
+    .Section{
+        height: 80vh;
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 850px)
+{
+    .Section{
+        height: 80vh;
+        min-height: 500px;
+    }
+}
+
+@media(max-width: 500px)
+{
+    .Section{
+        height: 100vh;
+        min-height: 400px;
+        margin: 0;
+    }
+}

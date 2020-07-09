@@ -2,8 +2,9 @@ import React from 'react';
 import classes from './RightArrow.css';
 
 const arrow = (props)=>{
+    let x = props.class_Fade ? classes.Fade : " ";
     return(
-        <div className={props.class}>
+        <div className={x+" "+classes.arrow_right}>
             <a onClick={props.handler}><i class={"fas fa-chevron-right "}></i></a>
         </div>
     )

@@ -43,10 +43,12 @@ class Layout extends Component {
                 <Sidebar show={false}/>
                 <Mail/>
                 <Ribbon/>
-                <Animation>
-                    <ProfilePic/>
-                    <Intro />
-                </Animation>
+                <div id="About">
+                    <Animation>
+                        <ProfilePic/>
+                        <Intro />
+                    </Animation>
+                </div>
                 <Section id="Coding_Profiles" 
                     count={2}
                     frames={this.CodingProfiles}

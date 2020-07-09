@@ -19,10 +19,10 @@
 
 .sidebar a{
     font-size: 1em;
-    color: darkgray;
+    color: red;
 }
 .sidebar h4:hover{
-    color: white;
+    color: rgb(236, 176, 152);
 }
 
 .sidebar li{

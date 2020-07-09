@@ -14,6 +14,14 @@
     padding: 0;
 }
 
+.Navbar a{
+    color: red;
+}
+.Navbar a:hover{
+    color: rgb(236, 176, 152);
+}
+
+
 @media(max-width: 870px){
     .Navbar{
         padding: 0 3%;

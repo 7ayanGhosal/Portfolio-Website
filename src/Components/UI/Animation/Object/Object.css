@@ -1,4 +1,7 @@
 .Object{
+    width: 10vw;
+    height: 10vh;
+    min-height: 50px;
     z-index: 1;
     position: relative;
     float: left;

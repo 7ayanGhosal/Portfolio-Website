@@ -7,13 +7,13 @@ const Animation = (props)=>{
     let h = props.height;
     let w = props.width;
 
-    for (let i=0; i<1000; i++)
+    for (let i=0; i<110; i++)
     {
         jsx.push(
             <Object
                 key={"obj"+i}
-                width="50px"
-                height="50px"
+                // width="50px"
+                // height="50px"
             />
         )
     }

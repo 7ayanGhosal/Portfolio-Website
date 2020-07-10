@@ -21,7 +21,7 @@ import CC_P from '../../Assets/Codechef/Codechef_Profile.PNG';
 import CF_G from '../../Assets/Codeforces/Codeforces_Graph.PNG';
 import CF_P from '../../Assets/Codeforces/Codeforces_Profile.PNG';
     //Certificates
-import W_D_B from '../../Assets/Certificates/web_dev_bootcamp.jpg';
+import W_D_B from '../../Assets/Certificates/web_dev_bootcamp.PNG';
 import I_Py from '../../Assets/Certificates/intro_to_python.PNG';
 import DSA_Py from '../../Assets/Certificates/dsa_python.PNG';
 
@@ -80,6 +80,15 @@ class Layout extends Component {
                     <Intro />
                 </Animation>
 
+                <Focus id="Certifications"/>
+
+                <Section 
+                    count={this.Certifications.length}
+                    frames={this.Certifications}
+                    back_color="darkred"
+                    back_link="https://www.transparenttextures.com/patterns/bright-squares.png"
+                />
+
                 <Focus id="Coding-Profiles"/>
 
                 <Section 
@@ -89,14 +98,6 @@ class Layout extends Component {
                     back_link="https://www.transparenttextures.com/patterns/bright-squares.png"
                 />
 
-                <Focus id="Certifications"/>
-
-                <Section 
-                    count={this.Certifications.length}
-                    frames={this.Certifications}
-                    back_color="darkred"
-                    back_link="https://www.transparenttextures.com/patterns/bright-squares.png"
-                />
                 
             </Aux>
     )};

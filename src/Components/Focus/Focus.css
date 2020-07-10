@@ -1,0 +1,10 @@
+.Focus{
+    width: 100%;
+    height: 2.5em;
+}
+
+@media(max-width:750px){
+    .Focus{
+        height: 0;
+    }
+}

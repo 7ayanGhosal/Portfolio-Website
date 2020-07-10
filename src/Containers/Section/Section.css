@@ -1,4 +1,5 @@
 .Section{
+    z-index: 3;
     width: 100vw; 
     overflow: hidden;
     position: relative;

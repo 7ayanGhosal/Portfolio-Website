@@ -13,7 +13,6 @@
 }
 
 .children{
-  padding: 5vh 0;
   width: 100vw;
   min-height: 100vh;
   z-index: 0;
@@ -27,12 +26,19 @@
   overflow-x: hidden;
 }
 
+@media(max-width: 750px){
+  .children{
+    padding: 5vh 0;
+  }
+}
+
+
 .Object{
   position: absolute;
   /* top: 80px; */
   left: 0;
   height: 100vh;
-  min-height: 500px;
+  min-height: 450px;
   width: 100vw;
   overflow: hidden;
 }

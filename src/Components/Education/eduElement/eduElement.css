@@ -1,0 +1,14 @@
+.desc > h1{
+    margin-bottom: 1em;
+    color: darkmagenta;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.desc > p{
+    text-align: center;
+    width: 70%;
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: peachpuff;
+    margin: auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}

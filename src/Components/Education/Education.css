@@ -22,57 +22,12 @@
     color: yellow;
 }
 
-.Section{
-    z-index: 3;
-    width: 100vw; 
-    overflow: hidden;
+.education{
     position: relative;
-    /* padding: 15px; */
-    box-sizing: border-box;
-}
-
-/* .Frame{
-    transition:  transform 1s;
-} */
-
-
-@media(min-width: 1201px)
-{
-    .Section{
-        height: 70vh;
-        min-height: 400px;
-    }
-}
-
-@media(max-width: 1200px)
-{
-    .Section{
-        height: 80vh;
-        min-height: 300px;
-    }
-}
-
-@media(max-width: 850px)
-{
-    .Section{
-        height: 80vh;
-        min-height: 500px;
-    }
-}
-
-@media(max-width: 500px)
-{
-    .Section{
-        height: 100vh;
-        min-height: 400px;
-        margin: 0;
-    }
-}
-
-@media(max-height: 600px){
-    .Section{
-        height: auto;
-    }
+    height: 100%;
+    width: 100%;
+    padding: 2.5em 0;
+    text-align: center;
 }
 
 

@@ -1,6 +1,10 @@
 .Object{
     width: 10vw;
     height: 10vh;
+    box-sizing: border-box;
+    margin: 1vw;
+    /* border: 2px solid transparent; */
+    border-radius: 25px;
     min-height: 50px;
     z-index: 1;
     position: relative;

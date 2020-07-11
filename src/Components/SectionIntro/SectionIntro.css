@@ -1,0 +1,8 @@
+.SectionIntro{
+    color: white;
+    text-align: center;
+}
+
+.SectionIntro >h1{
+    margin-top: 0;
+}

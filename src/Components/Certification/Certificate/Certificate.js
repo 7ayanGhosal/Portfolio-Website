@@ -1,7 +1,5 @@
 import React , {Component} from 'react';
-import classes from './Image.css';
-import Aux from '../../../hoc/Auxiliary'
-
+import classes from './Certificate.css';
 
 class Image extends Component{
     render(){
@@ -9,7 +7,7 @@ class Image extends Component{
             
             <div className={classes.Image}>
                 <img src={this.props.path} />
-                <p>{this.props.children}</p>
+                <a href={this.props.link}>{this.props.children}</a>
             </div>
         )
     }

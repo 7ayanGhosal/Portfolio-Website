@@ -1,3 +1,27 @@
+.Container{
+    text-align: center;
+    padding: 2em 0;
+    box-sizing: border-box;
+}
+.Container > h4{
+    /* position: relative; */
+    color: orange;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+.arrow{
+    color: orange;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    height: 2em;
+    overflow: hidden;
+}
+.Container a:hover{
+    color: yellow;
+}
+
 .Section{
     z-index: 3;
     width: 100vw; 
@@ -5,9 +29,11 @@
     position: relative;
     /* padding: 15px; */
     box-sizing: border-box;
+}
 
-    /* 111 */
-    border: 2px solid grey;
+.Frame{
+    /* position: relative; */
+    transition:  transform 1s;
 }
 
 
@@ -41,5 +67,44 @@
         height: 100vh;
         min-height: 400px;
         margin: 0;
+    }
+}
+
+@media(max-height: 600px){
+    .Section{
+        height: auto;
+    }
+}
+
+
+.up{
+    position: relative;
+    top: 40%;
+    animation: up 1s infinite alternate;
+}
+
+.down{
+    animation: down 1s infinite alternate;
+}
+
+@keyframes up{
+    from{
+        /* font-size: 1em; */
+    }
+    to{
+        font-size: 1.3em;
+        font-weight: 800;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes down{
+    from{
+        /* font-size: 1em; */
+    }
+    to{
+        font-size: 1.3em;
+        font-weight: 800;
+        transform: translateY(20px);
     }
 }

@@ -1,0 +1,9 @@
+.description{
+    text-align: center;
+    width: 70%;
+    color: peachpuff;
+    font-size: 1.2em;
+}
+.description p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}

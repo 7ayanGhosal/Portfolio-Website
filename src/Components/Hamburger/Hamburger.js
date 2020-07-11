@@ -3,6 +3,8 @@ import Backdrop from '../UI/Backdrop/Backdrop';
 import classes from './Hamburger.css';
 import Aux from '../../hoc/Auxiliary';
 
+import Sidebar from '../Navigation/Sidebar/Sidebar';
+
 class Hamburger extends Component{
 
     state = {
@@ -17,12 +19,13 @@ class Hamburger extends Component{
             this.setState({menuOpen : false, class : [classes.menu_btn] })
         }
 
-        this.props.clicked();
+        // this.props.clicked();
     }
 
     render(){
         return(
             <Aux>
+                <Sidebar toggle={this.hamburgerClickHandler} show={this.state.menuOpen}/>
                 <Backdrop show={this.state.menuOpen}/>
                 <div 
                     className={ this.state.class.join(' ') } 

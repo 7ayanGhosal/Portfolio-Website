@@ -6,7 +6,7 @@ import Aux from '../../../hoc/Auxiliary'
 class Details extends Component{
     render(){
         return(
-            <div className={classes.Details}>
+            <div className={classes.details}>
                 <h3>||
                     <span>
                         {" "+this.props.platform+" "} 
@@ -21,7 +21,7 @@ class Details extends Component{
                     </span>
                     ||
                 </h3>
-                <a href={this.props.link}>Checkout <i class="fas fa-location-arrow"></i></a>
+                {/* <a href={this.props.link}>Checkout <i class="fas fa-location-arrow"></i></a> */}
             </div>
         )
     }

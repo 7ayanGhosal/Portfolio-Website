@@ -3,7 +3,7 @@
     width: 100%;
     top: 10%;
     text-align: center;
-    z-index: 250;
+    z-index: 1000;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
 }
@@ -35,8 +35,8 @@
 }
 
 .sidebar li:hover{
-    background-image: linear-gradient(darkslategray,black,black,black,black,black, darkslategray);
+    /* background-image: linear-gradient(darkslategray,black,black,black,black,black, darkslategray); */
     color: white;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 

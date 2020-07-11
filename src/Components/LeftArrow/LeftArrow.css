@@ -9,6 +9,7 @@
     text-align: center;
     text-shadow: black 0px 0px 6px;
     z-index: 50;
+    animation: arrow_left 1s infinite alternate;
 }
 .arrow_left :hover {
     color: lightgray;
@@ -16,8 +17,22 @@
 
 .Fade a{
     color: rgba(0, 0, 0, 0.3);
+    animation: none;
 }
 
 .Fade :hover{
     color: rgba(0, 0, 0, 0.3);
+}
+
+@keyframes arrow_left{
+    from{
+        font-size: 2em;
+        top: 50%;
+        left: 8%;
+    }
+    to{
+        font-size: 2.4em;
+        top: 49%;
+        left: 6%;
+    }
 }

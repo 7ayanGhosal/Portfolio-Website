@@ -7,12 +7,12 @@ class NavItems extends Component{
 
         return (
                 <ul className={ classes.NavItems }>
-                    <NavItem>About</NavItem>
-                    <NavItem>Education</NavItem>
-                    <NavItem>Certifications</NavItem>
-                    <NavItem>Projects</NavItem>
-                    <NavItem>Coding-Profiles</NavItem>
-                    <NavItem>Contact Me</NavItem>
+                    <NavItem toggle={this.props.toggle}>About</NavItem>
+                    <NavItem toggle={this.props.toggle}>Education</NavItem>
+                    <NavItem toggle={this.props.toggle}>Certifications</NavItem>
+                    <NavItem toggle={this.props.toggle}>Projects</NavItem>
+                    <NavItem toggle={this.props.toggle}>Coding-Profiles</NavItem>
+                    <NavItem toggle={this.props.toggle}>Contact Me</NavItem>
                 </ul>
         )
     }

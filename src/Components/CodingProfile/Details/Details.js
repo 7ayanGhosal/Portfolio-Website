@@ -25,7 +25,7 @@ class Details extends Component{
                     ||
                 </h3>
 
-                <a href={this.props.link}>Checkout <i class="fas fa-location-arrow"></i></a>
+                <a href={this.props.link}>Link to Profile <i class="fas fa-location-arrow"></i></a>
             </div>
         )
     }

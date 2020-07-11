@@ -1,6 +1,6 @@
-.Image > p{
+.iFrame > a{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 1.2em;
     font-weight: 800;
     margin: 0;
@@ -9,7 +9,11 @@
     text-shadow: black 0px 0px 6px;
 }
 
-.Image{
+.iFrame > a:hover{
+    color: orange;
+}
+
+.iFrame{
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -18,15 +22,12 @@
     align-items: center;
 }
 
-@media(min-width: 681px){
-    .Image{
-        float: left;
-    }
-}
-
-.Image > img{
+.iFrame > iframe{
+    width: 80vw;
+    height: 60vh;
     border-radius: 10px;
     margin: auto;
+    margin-top: 1em;
     padding: 0;
     box-shadow: -5px 5px rgba(0,0,0,0.3);
 }
@@ -34,35 +35,36 @@
 
 @media(min-width: 1201px)
 {
-    .Image > img{
-        height: 40vh;
-        max-width: 45vw;
+    .iFrame > iframe{
+        height: 55vh;
+        /* max-width: 45vw; */
         margin-bottom: 20px;
     }
 }
 
 @media(max-width: 1200px)
 {
-    .Image > img{
-        height: 40vh;
-        max-width: 45vw;
+    .iFrame > iframe{
+        height: 55vh;
+        /* max-width: 55vw; */
         margin-bottom: 20px;
     }
 }
 
 @media(max-width: 850px)
 {
-    .Image > img{
-        height: 35vh;
-        max-width: 48vw;
+    .iFrame > iframe{
+        margin-top: 2em;
+        height: 65vh;
+        /* max-width: 55vw; */
     }   
 }
 
 @media(max-width: 680px)
 {
-    .Image > img{
-        height: 27vh;
-        max-width: 80vw;
+    .iFrame > iframe{
+        height: 55vh;
+        /* max-width: 80vw; */
         margin-bottom: 5px;
         margin-top: 5px;
     }   
@@ -70,15 +72,9 @@
 
 @media(max-width: 500px)
 {
-    .Image > img{
-        height: 27vh;
-        max-width: 80vw;
-        margin-bottom: 20px;
+    .iFrame > iframe{
+        height: 50vh;
+        /* max-width: 80vw; */
+        margin-bottom: 10px;
     }   
-}
-
-@media(max-height: 600px){
-    .Image{
-        margin-top: 15px;
-    }
 }

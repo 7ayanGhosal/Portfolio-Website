@@ -1,0 +1,12 @@
+.desc{
+    width: 100%;
+    text-align: center;
+    width: 70%;
+    color: peachpuff;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+.desc p{
+    margin: auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}

@@ -143,7 +143,9 @@
 
   <script>
     let myFunction = ()=>{
-      document.getElementById('PreLoader').style.display = "none";
+      setTimeout(()=>{
+        document.getElementById('PreLoader').style.display = "none";
+      },3000)
     }
   </script>
 </html>

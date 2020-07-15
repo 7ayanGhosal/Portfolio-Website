@@ -6,7 +6,7 @@ class iFrame extends Component{
         return(
             
             <div className={classes.iFrame}>
-                <iframe src={this.props.link} sandbox></iframe>
+                {/* <iframe src={this.props.link} sandbox></iframe> */}
                 <a target="_blank" href={this.props.link}>{this.props.children}</a>
             </div>
         )

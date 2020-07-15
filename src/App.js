@@ -1,35 +1,26 @@
 import React, { Component } from 'react';
-import Intro from './Components/Intro/Intro';
 import classes from './App.css';
-import Mail from './Components/Mail/Mail';
-import Ribbon from './Components/Ribbon/Ribbon';
-import Hamburger from './Components/Hamburger/Hamburger';
-import ProfilePic from './Components/ProfilePic/ProfilePic';
-import Navbar from './Components/Navigation/Navbar/Navbar';
-// import Section from './Components/Section/Section';
 import Layout from './Containers/Layout/Layout'
+import Preloader from './Components/Preloader/Preloader';
 
 class App extends Component {
+
+  // state = {
+  //   preloader: <Preloader/>
+  // }
+
+  // preloader = ()=>{
+  //   console.log("Loaded!!");
+  //   setTimeout(()=>{
+  //     this.setState({preloader: <Layout/>})
+  //   }, 2000)
+  // }
+  
   render() {
     return (
       <div className={classes.App}>
-        {/* <Navbar/> */}
-        {/* <ProfilePic/> */}
-        {/* <Intro /> */}
-        {/* <Mail/> */}
-        {/* <Ribbon/> */}
-        {/* <Hamburger/> */}
-        {/* <CodingProfiles/> */}
-        {/* <CodingProfiles/>
-        <CodingProfiles/> */}
-        {/* <Section id="Coding_Profiles" count={4}/> */}
+        {/* {this.state.preloader} */}
         <Layout/>
-
-        {/* <div id="About" className={classes.section}><div>About</div></div>
-        <div id="Education" className={classes.section}><div>Education</div></div>
-        <div id="Certifications" className={classes.section}><div>Certifications</div></div>
-        <div id="Projects" className={classes.section}><div>Projetcs</div></div> */}
-        {/* <div id="Coding-Profiles" className={classes.section}><div>Coding-profiles</div></div> */}
       </div>
     );
   }

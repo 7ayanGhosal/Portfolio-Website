@@ -1,47 +1,31 @@
-import React, {Component} from 'react';
-import classes from './Object.css';
+import React, { Component } from "react";
+import classes from "./Object.css";
 
-class Obj extends Component{
+class Obj extends Component {
+  render() {
+    var time = this.props.time / 2 - 1;
 
-    state = {
-        hover: false,
-        color: Math.random()*10 >= 1 ? false : true,
-    }
+    if (time > 9.5) time = 19 - time;
 
-    hoverHandler = ()=>{
-        this.setState({hover: true})
-        
-        setTimeout(()=>{
-            this.setState({hover: false})
-        }, 1000)
-    }
+    console.log(time);
 
-    componentDidMount(){
-        setTimeout(()=>{
-            this.setState({color: Math.random()*10 >= 1 ? false : true})
-        }, Math.random()*1000+5000)
-    }
+    return (
+      <div
+        className={classes.Object + " object " + this.props.id}
+        style={{
+          animationDuration: "9.5s",
+          animationDelay: time + "s",
+          animationDirection: "alternate",
 
-    componentDidUpdate(){
-        setTimeout(()=>{
-            this.setState({color: Math.random()*10 >= 1 ? false : true})
-        }, Math.random()*1000+5000)
-    }
-
-    render(){
-        return(
-            <div className={classes.Object}
-                style={{
-                    'backgroundColor': this.state.hover? "rgba(255,255,0,0.3)": this.state.color ?"rgba(255,255,0,0.1)":"transparent",
-                    // 'width':this.props.width,
-                    // 'height': this.props.height
-                }}
-                onMouseOver={this.hoverHandler}
-            >
-    
-            </div>
-        )
-    }
+          width: this.props.width,
+          height: this.props.height,
+          color: "white",
+        }}
+      >
+        {/* {time} */}
+      </div>
+    );
+  }
 }
 
 export default Obj;

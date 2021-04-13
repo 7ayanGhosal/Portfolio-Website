@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import classes from './App.css';
-import Layout from './Containers/Layout/Layout'
-import Preloader from './Components/Preloader/Preloader';
+import React, { Component } from "react";
+import classes from "./App.css";
+import Layout from "./Containers/Layout/Layout";
+import Preloader from "./Components/Preloader/Preloader";
 
 class App extends Component {
-
   // state = {
   //   preloader: <Preloader/>
   // }
@@ -15,12 +14,12 @@ class App extends Component {
   //     this.setState({preloader: <Layout/>})
   //   }, 2000)
   // }
-  
+
   render() {
     return (
       <div className={classes.App}>
         {/* {this.state.preloader} */}
-        <Layout/>
+        <Layout />
       </div>
     );
   }

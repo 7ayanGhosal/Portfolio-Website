@@ -1,4 +1,4 @@
-.Animation{
+.Animation {
   z-index: 0;
   /* position: absolute;
   top:0;
@@ -12,7 +12,7 @@
   overflow-x: hidden;
 }
 
-.children{
+.children {
   width: 100vw;
   min-height: 100vh;
   z-index: 0;
@@ -26,14 +26,13 @@
   overflow-x: hidden;
 }
 
-@media(max-width: 750px){
-  .children{
+@media (max-width: 750px) {
+  .children {
     padding: 5vh 0;
   }
 }
 
-
-.Object{
+.Object {
   position: absolute;
   /* top: 80px; */
   left: 0;
@@ -43,8 +42,8 @@
   overflow: hidden;
 }
 
-@media(max-width: 750px){
-  .Object{
+@media (max-width: 750px) {
+  .Object {
     top: 0;
   }
 }

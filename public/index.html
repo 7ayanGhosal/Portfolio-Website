@@ -35,6 +35,8 @@
           background-color: black;
           z-index: 999999;
           position: fixed;
+          top: 0;
+          left: 0;
           margin: 0;
           padding: 0;
           box-sizing: border-box;
@@ -143,7 +145,9 @@
 
   <script>
     let myFunction = ()=>{
-      document.getElementById('PreLoader').style.display = "none";
+      setTimeout(()=>{
+        document.getElementById('PreLoader').style.display = "none";
+      },3000)
     }
   </script>
 </html>

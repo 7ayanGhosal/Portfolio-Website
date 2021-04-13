@@ -1,22 +1,85 @@
-.Mail{
-    position: fixed;
-    bottom:30px;
-    left: 30px;
-    font-size: 2.5em;
-    background-color: tomato;
-    border-radius: 50%;
-    box-sizing: border-box;
-    height: auto;
-    overflow: hidden;
-    padding: 7px 0;
-    z-index: 150;
+.Mail {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  font-size: 2.5em;
+  background-color: tomato;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: auto;
+  overflow: hidden;
+  z-index: 160;
+  transition: transform 1s;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
 }
 
-.Mail a{
-    padding: 20px 10px;
+.Mail a {
+  border-radius: 50%;
+  padding: 10px 10px;
 }
 
-.Mail :hover{
-    background-color: #3268ad;
-    color: darkblue;
+.Mail :hover,
+.Mail a :hover {
+  background-color: rgba(250, 190, 88, 0.5);
+  color: darkblue;
+}
+
+.mail_body {
+  transition: transform 1s;
+  z-index: 160;
+  background-image: linear-gradient(to bottom right, darkred 50%, red 50%);
+  width: 60vw;
+  /* min-height: 40vh; */
+  position: fixed;
+  left: 20vw;
+  top: -60vh;
+  /* top: 30vh; */
+  border: 2px solid darkred;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  padding: 1em;
+  text-align: center;
+}
+.cross {
+  position: absolute;
+  right: -2px;
+  top: -28px;
+  color: tomato;
+  background-color: darkred;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 7px;
+  z-index: 160;
+}
+.mail_body h3 {
+  color: lightgrey;
+}
+.mail_body h4 {
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+.mail_body_a {
+  color: cyan;
+  text-decoration: none;
+  font-size: 2em;
+  margin: 1em;
+}
+.mail_body a :hover {
+  color: violet !important;
+}
+
+@media (max-width: 720px) {
+  .mail_body {
+    width: 80vw;
+    left: 10vw;
+  }
+}
+@media (max-width: 600px) {
+  .mail_body {
+    width: 89vw;
+    left: 2vw;
+  }
 }

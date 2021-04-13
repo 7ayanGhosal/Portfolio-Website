@@ -1,27 +1,32 @@
-.ProfilePic{
-    min-width: 150px;
-    max-width: 400px;
-    width: 45vw;
+.ProfilePic {
+  margin-top: 10vh;
+  min-width: 150px;
+  max-width: 200px;
+  width: 45vw;
 }
-.ProfilePic div{
-    border: 6px solid tomato;
-    border-radius: 50%;
-    min-width: 150px;
-    max-width: 400px;
-    width: 45vw;
-    overflow: hidden;
-    animation: anim1 0.5s linear infinite alternate;
-    box-sizing: border-box;
-}
-
-.ProfilePic img{
-    min-width: 150px;
-    max-width: 400px;
-    width: 45vw;
-    object-fit: contain;
+.ProfilePic div {
+  border: 6px solid tomato;
+  border-radius: 50%;
+  min-width: 150px;
+  max-width: 200px;
+  width: 45vw;
+  overflow: hidden;
+  animation: anim2 1s linear infinite alternate;
+  box-sizing: border-box;
 }
 
-@keyframes anim1 {
-    from { border-color: red;}
-    to { border-color: tomato;}
+.ProfilePic img {
+  min-width: 150px;
+  max-width: 200px;
+  width: 45vw;
+  object-fit: contain;
+}
+
+@keyframes anim2 {
+  from {
+    border-color: orange;
+  }
+  to {
+    border-color: tomato;
+  }
 }
